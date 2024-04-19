@@ -1,0 +1,22 @@
+{
+    "0001":["Erreur: Le nom d'utilisateur ou le mot de passe sont incorrects", "Error: Username or password is incorrect"],
+    "0002":["Erreur: Le mot de passe doit faire au moins 8 caractères", "Error: Password must be at least 8 characters long"],
+    "0003":["Erreur: Les deux mots de passe doivent correspondre", "Error: Both passwords must match"],
+    "0004":["Erreur: Le nom d'utilisateur doit faire au moins 3 caractères", "Error: Username must be at least 3 characters long"],
+    "0005":["Erreur: Le nom d'utilisateur est deja pris", "Error: Username is already taken"],
+    "0006":["Jouer", "Play"],
+    "0007":["Changer d'equipe", "Change your team"],
+    "0008":["Voulez-vous vraiment//quitter?", "Want you to leave?//Really?"],
+    "0009":["Oui", "Yes"],
+    "0010":["Non", "No"],
+    "0011":["Creer une partie", "Create a game"],
+    "0012":["Entrez le code de//la partie:", "Enter the code of//the game"],
+    "0013":["Connexion", "Connexion"],
+    "0014":["Inscription", "Signin"],
+    "0015":["Nom d'utilisateur", "Username"],
+    "0016":["Mot de passe", "Password"],
+    "0017":["Attention! Il semblerait que vous ne soyez plus// connectes au services du GIGN...//verifiez votre connexion...", "Attention! It seems that you are no longer// connected to the GIGN services...//check your connection..."],
+    "0018":["Confirmer", "Confirm"],
+    "0019":["G.I.G.N", "G.I.G.N"],
+    "0020":["Erreur: Votre code de jeu est incorrect", "Error: Your game code is incorrect"]
+}

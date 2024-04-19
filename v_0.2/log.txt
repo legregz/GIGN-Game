@@ -1,0 +1,531 @@
+10^(2log k)
+0: server launched
+28121: 127.0.0.1 is connected
+36149: player legregz is connected
+69059: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+13406: 127.0.0.1 is connected
+24083: player legregz is connected
+31015: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+49594: 127.0.0.1 is connected
+61997: [!] Error: unterminated string literal (detected at line 1) (<string>, line 1) : Unknown command
+0: server launched
+4978: 127.0.0.1 is connected
+18753: [!] Error: list indices must be integers or slices, not str : Unknown command
+239478: 127.0.0.1 is connected
+248408: player legregz is connected
+272823: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+393160: 127.0.0.1 is connected
+400017: player legregz is connected
+400104: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+425851: 127.0.0.1 is connected
+434650: player legregz is connected
+445263: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+634268: 127.0.0.1 is connected
+639837: [!] Error: list indices must be integers or slices, not str : Unknown command
+701372: 127.0.0.1 is connected
+705946: [!] Error: list indices must be integers or slices, not str : Unknown command
+706034: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+3811: 127.0.0.1 is connected
+7404: [!] Error: list indices must be integers or slices, not str : Unknown command: login('gg','ad',)
+7486: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+2465: 127.0.0.1 is connected
+10459: player legregz is connected
+218724: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+222732: 127.0.0.1 is connected
+226241: [!] Error: list indices must be integers or slices, not str : Unknown command: login('ee','ada',)
+226322: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+7585: 127.0.0.1 is connected
+14692: [!] Error: list indices must be integers or slices, not str : Unknown command: login('ee','discord',)
+0: server launched
+2873: 127.0.0.1 is connected
+9786: player legregz try to connect
+157408: 127.0.0.1 is connected
+161779: player legregz try to connect
+161857: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+309117: 127.0.0.1 is connected
+318891: player legregz try to connect
+331346: player legregz is connected
+336394: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+7568: 127.0.0.1 is connected
+14648: player legregz is connected
+15734: [!] Error: 'Game' object has no attribute 'code' : Unknown command: createGame()
+1: server launched
+4533: 127.0.0.1 is connected
+13193: player legregz is connected
+13908: [!] Error: 'Game' object has no attribute 'code' : Unknown command: createGame()
+0: server launched
+3496: 127.0.0.1 is connected
+14600: player legregz is connected
+15391: [!] Error: 'Game' object has no attribute 'code' : Unknown command: createGame()
+1: server launched
+3039: 127.0.0.1 is connected
+14381: [!] Error: list indices must be integers or slices, not str : Unknown command: login('legrez','admin0',)
+20384: player legregz is connected
+21121: player legregz create a game
+0: server launched
+4623: 127.0.0.1 is connected
+24066: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+2580: 127.0.0.1 is connected
+238039: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+247794: 127.0.0.1 is connected
+248750: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+371300: 127.0.0.1 is connected
+422984: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+424386: 127.0.0.1 is connected
+428494: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+480363: 127.0.0.1 is connected
+494794: player legregz is connected
+494897: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+745470: 127.0.0.1 is connected
+753525: player legregz is connected
+753638: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+825120: 127.0.0.1 is connected
+837103: player legregz is connected
+837209: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+948557: 127.0.0.1 is connected
+956648: player legregz is connected
+959169: player legregz create a game
+1049647: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+1140232: 127.0.0.1 is connected
+1141640: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+1738741: 127.0.0.1 is connected
+1752899: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2008021: 127.0.0.1 is connected
+2017669: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2130075: 127.0.0.1 is connected
+2139810: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2298587: 127.0.0.1 is connected
+2309541: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2316545: 127.0.0.1 is connected
+2336779: player legregz is connected
+2358258: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2361342: 127.0.0.1 is connected
+2372824: player legregz is connected
+2379992: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2382945: 127.0.0.1 is connected
+2391584: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','',)
+2391818: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','',)
+2391952: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','',)
+2392072: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','',)
+2392845: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','',)
+2398325: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2398963: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2399134: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2399251: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2399825: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2400353: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2400495: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2400592: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2400746: [!] Error: list indices must be integers or slices, not str : Unknown command: login('bb8','c',)
+2405316: [!] Error: list indices must be integers or slices, not str : Unknown command: login('d','',)
+2405496: [!] Error: list indices must be integers or slices, not str : Unknown command: login('d','',)
+2405631: [!] Error: list indices must be integers or slices, not str : Unknown command: login('d','',)
+2411457: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2562913: 127.0.0.1 is connected
+2565971: [!] Error: list indices must be integers or slices, not str : Unknown command: login('d','',)
+2566072: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2663591: 127.0.0.1 is connected
+2668702: [!] Error: list indices must be integers or slices, not str : Unknown command: login('dd','',)
+2679148: [!] Error: list indices must be integers or slices, not str : Unknown command: login('rdr','flop',)
+2679464: [!] Error: list indices must be integers or slices, not str : Unknown command: login('rdr','flop',)
+2679605: [!] Error: list indices must be integers or slices, not str : Unknown command: login('rdr','flop',)
+2679743: [!] Error: list indices must be integers or slices, not str : Unknown command: login('rdr','flop',)
+2684401: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2731643: 127.0.0.1 is connected
+2738229: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2824931: 127.0.0.1 is connected
+2837729: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2910471: 127.0.0.1 is connected
+2976753: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2978151: 127.0.0.1 is connected
+2990370: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3048674: 127.0.0.1 is connected
+3054036: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3060873: 127.0.0.1 is connected
+3081137: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3283080: 127.0.0.1 is connected
+3287564: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3296329: 127.0.0.1 is connected
+3296473: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3344292: 127.0.0.1 is connected
+3368834: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3370230: 127.0.0.1 is connected
+3382861: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3407033: 127.0.0.1 is connected
+3435922: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3486831: 127.0.0.1 is connected
+3487332: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3515222: 127.0.0.1 is connected
+3516141: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3552496: 127.0.0.1 is connected
+3553234: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3557924: 127.0.0.1 is connected
+3571248: 127.0.0.1 is connected
+3629579: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3630978: 127.0.0.1 is connected
+3631741: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3841096: 127.0.0.1 is connected
+3842325: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+3951574: 127.0.0.1 is connected
+4011059: 127.0.0.1 is connected
+4017556: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+4128792: 127.0.0.1 is connected
+4153867: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+4278146: 127.0.0.1 is connected
+4287104: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','',)
+4289823: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+4553963: 127.0.0.1 is connected
+4558673: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4559681: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4559837: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4559955: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4560184: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4560306: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4560683: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4560799: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4562371: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4563181: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4563419: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+4567235: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+1538: 127.0.0.1 is connected
+1986: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+2047: 127.0.0.1 is connected
+21456: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+22014: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+22170: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+22284: [!] Error: list indices must be integers or slices, not str : Unknown command: login('','dd',)
+0: server launched
+4436: 127.0.0.1 is connected
+0: server launched
+3001: 127.0.0.1 is connected
+11984: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+39631: 127.0.0.1 is connected
+168484: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+169865: 127.0.0.1 is connected
+177747: [!] Error: list indices must be integers or slices, not str : Unknown command: login('dd','f',)
+178397: [!] Error: list indices must be integers or slices, not str : Unknown command: login('dd','f',)
+178553: [!] Error: list indices must be integers or slices, not str : Unknown command: login('dd','f',)
+179219: [!] Error: list indices must be integers or slices, not str : Unknown command: login('dd','f',)
+179681: [!] Error: list indices must be integers or slices, not str : Unknown command: login('dd','f',)
+0: server launched
+2158: 127.0.0.1 is connected
+15170: [!] Error: list indices must be integers or slices, not str : Unknown command: login('legreg','admin0',)
+17945: player legregz is connected
+19119: player legregz create a game
+20211: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+206519: 127.0.0.1 is connected
+221579: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+241116: 127.0.0.1 is connected
+279077: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+7911: 127.0.0.1 is connected
+29418: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+30943: 127.0.0.1 is connected
+47423: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+47889: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+49157: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+49703: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+49855: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+49967: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+50543: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+50845: [!] Error: name 'legregz' is not defined : Unknown command: login(legregz, admin0)
+54451: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+4732: 127.0.0.1 is connected
+12583: player legregz is connected
+16027: player legregz create a game
+17280: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+4752: 127.0.0.1 is connected
+11256: player legregz is connected
+18880: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+20498: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+20913: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+21062: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+21167: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+21291: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+21783: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+21939: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+22079: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+22445: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+22658: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+23495: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+23642: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+23763: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+149990: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+152535: 127.0.0.1 is connected
+160774: player legregz is connected
+161541: [!] Error: 'Client' object has no attribute 'gamesIndex' : Unknown command: createGame()
+186417: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+187777: 127.0.0.1 is connected
+190356: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+6867: 127.0.0.1 is connected
+13445: player legregz is connected
+14655: player legregz create a game
+29509: [!] Error: 'builtin_function_or_method' object is not subscriptable : Unknown command: changeTeam()
+112520: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+9214: 127.0.0.1 is connected
+16854: player legregz is connected
+18092: player legregz create a game
+35259: [!] Error: 'builtin_function_or_method' object is not subscriptable : Unknown command: changeTeam()
+57042: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+3622: 127.0.0.1 is connected
+10497: player legregz is connected
+11623: player legregz create a game
+0: server launched
+115096: 127.0.0.1 is connected
+134923: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+136375: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137016: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137155: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137283: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137675: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137782: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137890: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+137993: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+138097: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+138186: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+138396: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+138473: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+138601: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+139058: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+139194: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+139421: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+139605: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gregg', 'le_bg', 'le_bg')
+0: server launched
+4789: 127.0.0.1 is connected
+13555: player legregz is connected
+0: server launched
+2943: 127.0.0.1 is connected
+13497: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gg', 'level0', 'level0')
+14180: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gg', 'level0', 'level0')
+14322: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gg', 'level0', 'level0')
+14447: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gg', 'level0', 'level0')
+14554: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gg', 'level0', 'level0')
+14661: [!] Error: 'list' object has no attribute 'keys' : Unknown command: signin('gg', 'level0', 'level0')
+0: server launched
+2539: 127.0.0.1 is connected
+13347: [!] Error: 'Client' object has no attribute 'userdata' : Unknown command: signin('gg', 'level0', 'level0')
+14534: [!] Error: 'Client' object has no attribute 'userdata' : Unknown command: signin('gg', 'level0', 'level0')
+1: server launched
+2699: 127.0.0.1 is connected
+17976: [!] Error: list indices must be integers or slices, not str : Unknown command: signin('gg', 'level0', 'level0')
+54308: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+59860: 127.0.0.1 is connected
+75478: [!] Error: list indices must be integers or slices, not str : Unknown command: signin('ggwp', 'level50', 'level50')
+97230: player legregz have create account
+102462: 127.0.0.1 is connected
+109532: player legregz is connected
+110976: player legregz create a game
+128698: player legregz try to connect himself to a game
+130239: player legregz try to connect himself to a game
+130390: player legregz try to connect himself to a game
+155032: player legregz try to connect himself to a game
+155168: player legregz try to connect himself to a game
+155268: player legregz try to connect himself to a game
+155375: player legregz try to connect himself to a game
+155495: player legregz try to connect himself to a game
+155598: player legregz try to connect himself to a game
+155703: player legregz try to connect himself to a game
+155817: player legregz try to connect himself to a game
+155926: player legregz try to connect himself to a game
+156049: player legregz try to connect himself to a game
+156147: player legregz try to connect himself to a game
+0: server launched
+3686: 127.0.0.1 is connected
+67235: [!] Error: list indices must be integers or slices, not str : Unknown command: login('ggwp', 'level_50')
+0: server launched
+3428: 127.0.0.1 is connected
+12649: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+28069: 127.0.0.1 is connected
+39793: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+79357: 127.0.0.1 is connected
+86585: player legregz is connected
+88881: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+6467: 127.0.0.1 is connected
+66863: [!] Error: list indices must be integers or slices, not str : Unknown command: signin('ggwp', 'wellwell', 'wellwelll')
+71627: [!] Error: list indices must be integers or slices, not str : Unknown command: signin('ggwp', 'wellwell', 'wellw')
+74773: [!] Error: list indices must be integers or slices, not str : Unknown command: signin('ggwp', 'wellw', 'wellw')
+85296: [!] Error: list indices must be integers or slices, not str : Unknown command: signin('legregz', 'wellwell', 'wellwell')
+92709: player legregz have create account
+95605: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+2707: 127.0.0.1 is connected
+10370: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+11918: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+12491: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+12587: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+12717: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+12789: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+13769: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+13865: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+14071: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+14287: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+14534: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+14634: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+14723: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+14832: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+15202: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+84737: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+85489: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+85649: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+86600: [!] Error: 'Client' object has no attribute 'userData' : Unknown command: login('legregz', 'admin0')
+0: server launched
+9921: 127.0.0.1 is connected
+15958: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+17565: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+18401: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+0: server launched
+3430: 127.0.0.1 is connected
+11502: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+12862: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+13320: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+13453: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+13560: [!] Error: string indices must be integers, not 'str' : Unknown command: login('legregz', 'admin0')
+0: server launched
+2097: 127.0.0.1 is connected
+10605: player legregz is logged in
+15537: 127.0.0.1 is connected
+35991: [!] Error: unsupported operand type(s) for -: 'list' and 'int' : Unknown command: signin('ggwp', 'level_50', 'level_50')
+36984: [!] Error: name 'null' is not defined : Unknown command: signin('ggwp', 'level_50', 'level_50')
+38563: [!] Error: name 'null' is not defined : Unknown command: signin('ggwp', 'level_50', 'level_50')
+39075: [!] Error: name 'null' is not defined : Unknown command: signin('ggwp', 'level_50', 'level_50')
+39222: [!] Error: name 'null' is not defined : Unknown command: signin('ggwp', 'level_50', 'level_50')
+39331: [!] Error: name 'null' is not defined : Unknown command: signin('ggwp', 'level_50', 'level_50')
+150538: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151105: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151264: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151389: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151518: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151622: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151737: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+151871: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+152090: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+152213: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+152418: [!] Error: name 'null' is not defined : Unknown command: signin('g', 'g', 'g')
+0: server launched
+41435: 127.0.0.1 is connected
+61725: [!] Error: name 'null' is not defined : Unknown command: signin('ggwp', 'level_50', 'level_50')
+1: server launched
+2339: 127.0.0.1 is connected
+0: server launched
+2351: 127.0.0.1 is connected
+10097: player legregz is logged in
+14730: 127.0.0.1 is connected
+26501: player ggwp is logged in
+27935: player ggwp create a game
+49093: player legregz try to connect himself to a game
+49776: player legregz try to connect himself to a game
+49921: player legregz try to connect himself to a game
+50136: player legregz try to connect himself to a game
+0: server launched
+1912: 127.0.0.1 is connected
+5126: 127.0.0.1 is connected
+12886: player legregz is logged in
+25408: player ggwp is logged in
+26433: player ggwp create a game
+43075: player legregz connect himself to a game
+62902: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+66528: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+0: server launched
+0: server launched
+12131799: 127.0.0.1 is connected
+12152385: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12153723: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12153886: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12154008: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12159653: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12159779: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12159892: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12160159: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12160422: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12160553: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12161026: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12161156: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'level_50', 'level_50')
+12547376: 127.0.0.1 is connected
+12551436: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+12591951: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+12602245: 127.0.0.1 is connected
+12610696: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'gg', 'gg')
+12611092: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'gg', 'gg')
+12611251: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'gg', 'gg')
+12611464: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'gg', 'gg')
+12611578: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'gg', 'gg')
+12611708: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('legregz', 'gg', 'gg')
+12618793: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+12637577: 127.0.0.1 is connected
+12640365: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12640510: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12640624: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12640723: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12654245: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+12701164: 127.0.0.1 is connected
+12704454: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12705071: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12705242: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12716791: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+0: server launched
+12812022: 127.0.0.1 is connected
+12814251: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12814697: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12814843: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12814961: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12832430: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+12838737: 127.0.0.1 is connected
+12839583: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12839722: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12839960: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12840076: [!] Error: [Errno 2] No such file or directory: 'data_0.2.json' : Unknown command: signin('', '', '')
+12852916: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+12965358: 127.0.0.1 is connected
+12972498: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+1: server launched
+3791: 127.0.0.1 is connected
+0: server launched
+3790: 127.0.0.1 is connected
+17085: 127.0.0.1 try to create account
+17621: 127.0.0.1 try to create account
+17769: 127.0.0.1 try to create account
+17881: 127.0.0.1 try to create account
+17989: 127.0.0.1 try to create account
+113790: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+3777: 127.0.0.1 is connected
+22943: 127.0.0.1 try to create account
+29722: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+2913: 127.0.0.1 is connected
+16893: 127.0.0.1 try to create account
+33741: player gregz have create account
+56208: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+1: server launched
+3514: 127.0.0.1 is connected
+17629: player legregz have create account
+0: server launched
+2112: 127.0.0.1 is connected
+14454: player legregz have create account
+49066: player legregz create a game
+50492: [!] Error: 'builtin_function_or_method' object is not subscriptable : Unknown command: changeTeam()
+51789: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+14042493: 127.0.0.1 is connected
+14045070: [!] Error: 'Client' object has no attribute 'escape' : Unknown command: escape()
+14045156: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
