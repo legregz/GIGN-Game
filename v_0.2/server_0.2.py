@@ -4,7 +4,7 @@ from threading import Thread
 SERVER_HOST = "localhost"
 SERVER_PORT = 55352
 
-clientSockets = []
+clients = []
 games = []
 serverSocket = socket.socket()
 serverSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -12,6 +12,11 @@ serverSocket.bind((SERVER_HOST, SERVER_PORT))
 serverSocket.listen(10)
 
 startTime = time.time()
+
+def autoClientDelete():
+    for client in clients:
+        if client.state == "disconnected":
+            clients.remove(clients)
 
 class Log:
     def __init__(self):
@@ -53,8 +58,9 @@ class Game:
 
     def connect(self, player):
         self.brodcast(f"newPlayer('{player.userData['username']}')")
-        for elt in self.players:
-            player.send(f"newPlayer('{elt.userData['username']}')")
+        for i in range(2):
+            for elt in self.players[i]:
+                player.send(f"newPlayer('{elt.userData['username']}')")
 
         self.players[0].append(player)
         return self
@@ -90,6 +96,7 @@ class Game:
 
 class Client:
     def __init__(self, socket, address):
+        self.state = "connected"
         self.socket = socket
         self.address = address
 
@@ -103,14 +110,17 @@ class Client:
                 msgs = separate(self.socket.recv(2048).decode())
             except Exception as e:
                 log.log(f"[!] Error: {e}")
-                self.socket.close()
-                return 1
+                self.escape()
+                break
             else:
                 for msg in msgs:
                     try:
-                        eval("self." + msg)
+                        eval(f"self.{msg}")
                     except Exception as e:
                         log.log(f"[!] Error: {e} : Unknown command: {msg}")
+
+                if self.state == "disconnected":
+                    break
 
     def send(self, msg):
         self.socket.send(bytes(msg, "utf-8"))
@@ -123,7 +133,7 @@ class Client:
             if users[user][0:-5] == username:
                 founded = True
 
-                file = open(f"users/{username}", "r")
+                file = open(f"users/{username}.json", "r")
                 userData = eval(file.read())
                 file.close()
 
@@ -178,7 +188,7 @@ class Client:
         game = Game()
         self.game = game.connect(self)
         print(self.game.code)
-        self.send(f"connectedToGame(True, {self.game.code})")
+        self.send(f"connectedToGame(True, '{self.game.code}')")
         log.log(f"player {self.userData['username']} create a game")
 
     def changeTeam(self):
@@ -193,23 +203,24 @@ class Client:
             if games[i].code == code:
                 founded = True
                 self.game = games[i].connect(self)
-                self.send(f"connectedToGame(True, {self.game.code})")
+                self.send(f"connectedToGame(True, '{code}')")
                 log.log(f"player {self.userData['username']} connect himself to a game")
                 break
         
         if founded == False:
-            self.send(f"connectedToGame(True, '0020')")
+            self.send(f"connectedToGame(False, '0020')")
             log.log(f"player {self.userData['username']} try to connect himself to a game")
 
     def escape(self):
         log.log(f"{self.address[0]} quit the game")
         self.socket.close()
-        return 0
+        self.state = "disconnected"
 
 while True:
     clientSocket, clientAddress = serverSocket.accept()
     log.log(f"{clientAddress[0]} is connected")
     try:
-        clientSockets.append(Client(clientSocket, clientAddress))
+        clients.append(Client(clientSocket, clientAddress))
     except Exception as e:
         log.log(e)
+    print(clients)

@@ -24,18 +24,6 @@ def connect():
 def send(msg):
     clientSocket.send(bytes(msg, "utf-8"))
 
-connecter = Thread(target = connect, args = ())
-connecter.daemon = True
-connecter.start()
-
-pygame.init()
-screen = pygame.display.set_mode()
-SCREEN_WIDTH = screen.get_width()
-SCREEN_HEIGHT = screen.get_height()
-pygame.key.set_repeat(500, 100)
-
-userData = {}
-
 def separate(msg):
     msgs = []
     start = 0
@@ -55,8 +43,39 @@ def socketListen():
             except:
                 print("Connexion failed!")
 
-            for msg in msgs:
-                return msg
+            return msgs
+
+def startListenner():
+    listenner = Thread(target = listen, args = ())
+    listenner.daemon = True
+    listenner.start()
+
+def listen():
+    global run
+    while run == True:
+        msgs = socketListen()
+        for msg in msgs:
+            if len(msg) > 0:
+                try:
+                    eval(msg)
+                except Exception as e:
+                    print(e)
+
+def escape():
+    send("escape()")
+    quit()
+
+connecter = Thread(target = connect, args = ())
+connecter.daemon = True
+connecter.start()
+
+pygame.init()
+screen = pygame.display.set_mode()
+SCREEN_WIDTH = screen.get_width()
+SCREEN_HEIGHT = screen.get_height()
+pygame.key.set_repeat(500, 100)
+
+userData = {}
 
 file = open("colors.json", "r")
 colorDict = eval(file.read())
@@ -334,10 +353,6 @@ class PopUp:
     def close(self):
         self.active = False
 
-def escape():
-    send("escape()")
-    quit()
-
 def goHomeMenu():
     global menu
     menu = "homeMenu()"
@@ -577,21 +592,6 @@ def signinMenu():
         if menu != "signinMenu()":
             return ""
 
-def startListenner():
-    listenner = Thread(target = listen, args = ())
-    listenner.daemon = True
-    listenner.start()
-
-def listen():
-    global run
-    while run == True:
-        message = socketListen()
-        if len(message) > 0:
-            try:
-                eval(message)
-            except Exception as e:
-                print(e)
-
 def connectedToGame(verification, code):
     global errorCode, gameCode, menu
     if verification == True:
@@ -678,7 +678,7 @@ def mainMenu():
     errorCode = ""
     buttons = [
         Button([85, 90], [18, 5], (13, 164, 31), "0006", 4, "White", "popups[1].open()"),
-        Button([65, 90], [18, 5], (6, 130, 212), "0011", 4, "White", "createGameSend()")
+        Button([65, 90], [18, 5], (6, 130, 212), "0011", 3, "White", "createGameSend()")
     ]
 
     popups = [
@@ -690,7 +690,7 @@ def mainMenu():
         PopUp([50, 50], [35, 20], "Grey", [
             Text([50, 48], 4, "0012", "White"),
             Entry([45, 55], [20, 5], (26, 118, 200), "XXXXXX", 4, "White"),
-            Button([55, 55], [5, 5], "DarkGreen", "0006", 4, "White", "connectToGameSend(popups[1].components[2].text)")
+            Button([60, 55], [5, 5], "DarkGreen", "0006", 4, "White", "connectToGameSend(popups[1].components[2].text)")
         ])
     ]
 
@@ -703,6 +703,7 @@ def mainMenu():
 
     def connectToGameSend(code):
         send(f"connectToGame('{code}')")
+        popups[1].close()
 
     run = True
     while run == True:
@@ -747,6 +748,8 @@ def mainMenu():
 
         pygame.display.flip()
 
+        print(menu)
+        time.sleep(0.1)
         if menu != "mainMenu()":
             return ""
 
