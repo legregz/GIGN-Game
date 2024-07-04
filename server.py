@@ -16,7 +16,7 @@ startTime = time.time()
 def autoClientDelete():
     for client in clients:
         if client.state == "disconnected":
-            clients.remove(clients)
+            clients.remove(client)
 
 class Log:
     def __init__(self):
@@ -57,39 +57,43 @@ class Game:
         self.players = [[], []]
 
     def connect(self, player):
-        self.brodcast(f"newPlayer('{player.userData['username']}')")
-        for i in range(2):
-            for elt in self.players[i]:
-                player.send(f"newPlayer('{elt.userData['username']}')")
+        if len(self.players[0]) == 0 and len(self.players[1]) == 0:
+            self.chief = player
 
         self.players[0].append(player)
+
+        self.broadcast(f"newPlayer('{player.userData['username']}', 0)")
+        for i in range(2):
+            for elt in self.players[i]:
+                player.send(f"newPlayer('{elt.userData['username']}',{i})")
+
         return self
     
     def changeTeam(self, player):
-        index = None
-        for i in range(len(self.players)):
-            for j in range(len(self.players[i])):
-                if self.players[i][j] == player:
-                    self.players[i].pop[j]
-                    index = i
-                    break
-
-            if index != None:
-                break
-
-
-        if index == len(self.players) - 1:
-            self.players[0].append(player)
+        if player in self.players[0]:
+            self.players[0].remove(player)
+            self.players[1].append(player)
         else:
-            self.players[index + 1].append(player)
+            self.players[1].remove(player)
+            self.players[0].append(player)
 
         print(self.players)
-        self.brodcast(f"changeTeam('{player.userData['username']}')")
+        self.broadcast(f"changeTeam('{player.userData['username']}')")
 
     def launchGame(self, player):
-        self.brodcast("gameStarted()")
+        allReady = True
 
-    def brodcast(self, msg):
+        if player == self.chief:
+            for team in self.players:
+                for elt in team:
+                    if elt.ready != True:
+                        allReady = False
+                        player.send("gameStarted(False, '')")
+
+            if allReady == True:
+                self.broadcast("gameStarted()")
+
+    def broadcast(self, msg):
         for i in range(2):
             for player in self.players[i]:
                 player.send(msg)
@@ -103,6 +107,13 @@ class Client:
         self.listener = Thread(target = self.listen, args = ())
         self.listener.daemon = True
         self.listener.start()
+
+        self.ready = False
+
+    def ready(self):
+        self.ready = True
+
+        self.game.launchGame(self)
 
     def listen(self):
         while True:
@@ -215,6 +226,7 @@ class Client:
         log.log(f"{self.address[0]} quit the game")
         self.socket.close()
         self.state = "disconnected"
+        autoClientDelete()
 
 while True:
     clientSocket, clientAddress = serverSocket.accept()

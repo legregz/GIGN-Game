@@ -6,7 +6,8 @@ SERVER_PORT = 55352
 
 online = False
 menu = "homeMenu()"
-players = {}
+players = []
+playersTexts = {}
 errorCode = ""
 lang = "en"
 
@@ -70,7 +71,7 @@ connecter.daemon = True
 connecter.start()
 
 pygame.init()
-screen = pygame.display.set_mode()
+screen = pygame.display.set_mode(flags = pygame.FULLSCREEN)
 SCREEN_WIDTH = screen.get_width()
 SCREEN_HEIGHT = screen.get_height()
 pygame.key.set_repeat(500, 100)
@@ -593,10 +594,13 @@ def signinMenu():
             return ""
 
 def connectedToGame(verification, code):
-    global errorCode, gameCode, menu
+    global errorCode, gameCode, menu, players, playersTexts
     if verification == True:
         gameCode = code
+        players = []
+        playersTexts = {}
         menu = "waitMenu()"
+        errorCode = "code: " + code
     else:
         errorCode = code
 
@@ -608,21 +612,31 @@ def login(verification, data):
     else:
         errorCode = data
 
-def changeTeam(userName):
-    pass
+def changeTeam(username):
+    if username in players[0]:
+        players[0].remove(username)
+        players[1].append(username)
+        playersTexts[username] = Text([75, 25 + 10 * players[1].index(username)], 4, username, "White")
+    else:
+        players[1].remove(username)
+        players[0].append(username)
+        playersTexts[username] = Text([25, 25 + 10 * players[0].index(username)], 4, username, "White")
 
-def gameStarted():
-    pass
+def gameStarted(verification, code):
+    global errorCode, menu
 
-def newPlayer(userName):
-    pass
+    if verification == True:
+        menu = "gameMenu()"
+    else:
+        errorCode = code
+
+def newPlayer(username, team):
+    players[team].append(username)
+    playersTexts[username] = Text([25 + 50 * team, 25 + 10 * players[team].index(username)], 4, username, "White")
 
 def waitMenu():
-    global players
-    players = {}
-
     buttons = [
-        Button([85, 90], [18, 5], (13, 164, 31), "0006", 4, "White", "send('startGame()')"),
+        Button([85, 90], [18, 5], "Green", "0022", 4, "White", "send('ready()')"),
         Button([50, 90], [18, 5], "lightBlue", "0007", 4, "White", "send('changeTeam()')")
     ]
 
@@ -632,6 +646,10 @@ def waitMenu():
             Button([60, 55], [10, 5], "Red", "0009", 4, "White", "escape()"),
             Button([40, 55], [10, 5], "Green", "0010", 4, "White", "popups[0].close()")
         ])
+    ]
+
+    texts = [
+        Text([50, 25], 4, "", "Red")
     ]
 
     run = True
@@ -663,6 +681,15 @@ def waitMenu():
 
         screen.fill(0)
 
+        if len(errorCode) != 0:
+            texts[0].setText(trad.trad(errorCode))
+
+        for key in playersTexts.keys():
+            playersTexts[key].show()
+
+        for text in texts:
+            text.show()
+
         for button in buttons:
             button.show()
 
@@ -677,7 +704,7 @@ def waitMenu():
 def mainMenu():
     errorCode = ""
     buttons = [
-        Button([85, 90], [18, 5], (13, 164, 31), "0006", 4, "White", "popups[1].open()"),
+        Button([85, 90], [18, 5], "Green", "0006", 4, "White", "popups[1].open()"),
         Button([65, 90], [18, 5], (6, 130, 212), "0011", 3, "White", "createGameSend()")
     ]
 
@@ -690,7 +717,7 @@ def mainMenu():
         PopUp([50, 50], [35, 20], "Grey", [
             Text([50, 48], 4, "0012", "White"),
             Entry([45, 55], [20, 5], (26, 118, 200), "XXXXXX", 4, "White"),
-            Button([60, 55], [5, 5], "DarkGreen", "0006", 4, "White", "connectToGameSend(popups[1].components[2].text)")
+            Button([60, 55], [10, 5], "Green", "0006", 4, "White", "connectToGameSend(popups[1].components[2].text)")
         ])
     ]
 
@@ -737,22 +764,24 @@ def mainMenu():
         if len(errorCode) != 0:
             texts[0].setText(trad.trad(errorCode))
 
+        for popup in popups:
+            popup.show(char)
+
         for text in texts:
             text.show()
 
         for button in buttons:
             button.show()
 
-        for popup in popups:
-            popup.show(char)
-
         pygame.display.flip()
 
-        print(menu)
-        time.sleep(0.1)
         if menu != "mainMenu()":
             return ""
+
+def gameMenu():
+    print("enfin")
 
 run = True
 while run == True:
     menuReturn = eval(menu)
+    errorCode = ""

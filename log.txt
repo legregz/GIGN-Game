@@ -529,3 +529,41 @@
 14042493: 127.0.0.1 is connected
 14045070: [!] Error: 'Client' object has no attribute 'escape' : Unknown command: escape()
 14045156: [!] Error: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+0: server launched
+4017: 127.0.0.1 is connected
+10522: 127.0.0.1 quit the game
+45230: 127.0.0.1 is connected
+52445: 127.0.0.1 is connected
+62633: player legregz try to login
+86274: player legregz is logged in
+113264: 127.0.0.1 try to create account
+137983: player greg have create account
+178066: player greg create a game
+213833: player legregz connect himself to a game
+247452: 127.0.0.1 quit the game
+257881: 127.0.0.1 quit the game
+348442: 127.0.0.1 is connected
+354819: player greg is logged in
+407668: 127.0.0.1 quit the game
+0: server launched
+2625: 127.0.0.1 is connected
+112919: 127.0.0.1 is connected
+0: server launched
+3084: 127.0.0.1 is connected
+17042: player legregz is logged in
+31564: 127.0.0.1 quit the game
+31564: [!] Error: list.remove(x): x not in list : Unknown command: escape()
+0: server launched
+2204: 127.0.0.1 is connected
+0: server launched
+2443: 127.0.0.1 is connected
+26837: 127.0.0.1 quit the game
+26837: [!] Error: list.remove(x): x not in list : Unknown command: escape()
+0: server launched
+5198: 127.0.0.1 is connected
+15269: player legregz is logged in
+31587: 127.0.0.1 is connected
+47687: 127.0.0.1 quit the game
+65163: 127.0.0.1 quit the game
+73051: 127.0.0.1 is connected
+86466: 127.0.0.1 quit the game
