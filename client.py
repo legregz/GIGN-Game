@@ -112,18 +112,15 @@ def draw(image, rect, centered = (True, True)):
 
 class Trad:
     def __init__(self):
-        file = open("trad.json", "r")
-        self.trads = eval(file.read())
+        file = open(f"languages/{lang}.json", "r")
+        self.lang = eval(file.read())
         file.close()
-
-        file = open("lang.json", "r")
-        langIndex = eval(file.read())
-        file.close()
-
-        self.langIndex = langIndex.index(lang)
 
     def trad(self, code):
-        return self.trads[code][self.langIndex]
+        try:
+            return self.lang[code]
+        except:
+            return code
     
 trad = Trad()
 
@@ -153,10 +150,7 @@ class Text:
 
     def setText(self, text):
         start = 0
-        try:
-            text = trad.trad(text)
-        except:
-            pass
+        text = trad.trad(text)
         self.texts = []
         for end in range(len(text)):
             if text[end: end+2] == "//":
@@ -264,10 +258,7 @@ class Entry:
     def __init__(self, position, size, color, defaultText, fontSize, textColor, text = "", font = "PixelBold.otf"):
         self.rect = createRect(position, size)
         self.font = pygame.font.Font(f"fonts/{font}", screen.get_height() // 100 * fontSize)
-        try:
-            defaultText = trad.trad(defaultText)
-        except:
-            pass
+        defaultText = trad.trad(defaultText)
         self.defaultText = self.font.render(defaultText, True, textColor)
         self.text = text
         self.active = False

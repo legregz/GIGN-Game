@@ -57,8 +57,7 @@ class Game:
         self.players = [[], []]
 
     def connect(self, player):
-        if len(self.players[0]) == 0 and len(self.players[1]) == 0:
-            self.chief = player
+        ID = len(self.players[0]) + len(self.players[1])
 
         self.players[0].append(player)
 
@@ -67,23 +66,30 @@ class Game:
             for elt in self.players[i]:
                 player.send(f"newPlayer('{elt.userData['username']}',{i})")
 
-        return self
+        return self, ID
     
-    def changeTeam(self, player):
-        if player in self.players[0]:
-            self.players[0].remove(player)
-            self.players[1].append(player)
-        else:
-            self.players[1].remove(player)
-            self.players[0].append(player)
+    def changeTeam(self, ID):
+        founded = False
+        for player in self.players[0]:
+            if player.ID == ID:
+                self.players[0].remove(player)
+                self.players[1].append(player)
+                founded = True
+                break
+        if founded == False:
+            for player in self.players[1]:
+                if player.ID == ID:
+                    self.players[1].remove(player)
+                    self.players[0].append(player)
+                    break
 
         print(self.players)
         self.broadcast(f"changeTeam('{player.userData['username']}')")
 
-    def launchGame(self, player):
+    def launchGame(self, ID):
         allReady = True
 
-        if player == self.chief:
+        if ID == 0:
             for team in self.players:
                 for elt in team:
                     if elt.ready != True:
@@ -203,17 +209,17 @@ class Client:
         log.log(f"player {self.userData['username']} create a game")
 
     def changeTeam(self):
-        self.game.changeTeam(self)
+        self.game.changeTeam(self.ID)
 
     def startGame(self):
-        self.game.launchGame(self)
+        self.game.launchGame(self.ID)
 
     def connectToGame(self, code):
         founded = False
         for i in range(len(games)):
             if games[i].code == code:
                 founded = True
-                self.game = games[i].connect(self)
+                self.game, self.ID = games[i].connect(self)
                 self.send(f"connectedToGame(True, '{code}')")
                 log.log(f"player {self.userData['username']} connect himself to a game")
                 break
