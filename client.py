@@ -87,7 +87,7 @@ def createColor(color):
         return colorDict[color]
     else:
         return color
-    
+
 def dark(color):
     if type(color) == str:
         return "dark" + color
@@ -622,6 +622,7 @@ def gameStarted(verification, code):
         errorCode = code
 
 def newPlayer(username, team):
+    global playersTexts
     players[team].append(username)
     playersTexts[username] = Text([25 + 50 * team, 25 + 10 * players[team].index(username)], 4, username, "White")
 

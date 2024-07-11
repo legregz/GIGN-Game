@@ -23,7 +23,7 @@ class Log:
         pass
 
     def log(self, log):
-        file = open("log.txt", "a")
+        file = open("debug.log", "a")
         file.write(f"{int((time.time() - startTime) * 1000)}: {log}\n")
         print(f"{int((time.time() - startTime) * 1000)}: {log}")
         file.close()
