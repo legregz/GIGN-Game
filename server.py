@@ -86,6 +86,14 @@ class Game:
         print(self.players)
         self.broadcast(f"changeTeam('{player.userData['username']}')")
 
+    def searchPlayer(self, ID):
+        founded = False
+        for team in self.players:
+            for player in team:
+                if player.ID == ID:
+                    founded == True
+                    return player
+
     def launchGame(self, ID):
         allReady = True
 
@@ -94,10 +102,13 @@ class Game:
                 for elt in team:
                     if elt.ready != True:
                         allReady = False
-                        player.send("gameStarted(False, '')")
+                        try:
+                            self.searchPlayer(ID).send("gameStarted(False, '0021')")
+                        except:
+                            pass
 
             if allReady == True:
-                self.broadcast("gameStarted()")
+                self.broadcast("gameStarted(True)")
 
     def broadcast(self, msg):
         for i in range(2):
